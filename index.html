@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back-end</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color:#346fdd;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #content {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #footer {
+            background-color: #346fdd;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 28px;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        p {
+            color: #000000;
+            line-height: 1.5;
+            text-align: justify;
+            font-size: 18px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            text-align: center;
+            display: grid;
+            text-align: center;
+            
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .section-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .section-content p {
+            flex: 0 0 45%;
+            margin: 10px;
+        }
+
+        .image-container {
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .image-container:hover {
+            transform: scale(1.1);
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-height: 200px; /* Defina a altura máxima desejada */
+        }
+
+        .profession {
+            margin-bottom: 20px;
+        }
+
+        .profession-title {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .profession-price {
+            font-size: 18px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Apresentação Back-End</h1>
+    </div>
+    <div id="content">
+        <h2 class="section-title">Back-End</h2>
+        <div class="section">
+            
+            <div class="section-content">
+                <div class="image-container">
+                    <img src="/img/fronback.png" alt="Back-End">
+                </div>
+                <p>O back-end é a parte do desenvolvimento web responsável pelo processamento dos dados, lógica do sistema e comunicação com bancos de dados. É a base que sustenta as aplicações web e permite seu funcionamento.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Desvendando o Mundo da Tecnologia</h2>
+            <div class="section-content">
+                <div class="image-container">
+                    <img src="/img/Capa-programador.png" alt="Tecnologia">
+                </div>
+                <p>A tecnologia está cada vez mais presente em nossas vidas, transformando a maneira como nos comunicamos, trabalhamos e nos divertimos. O back-end desempenha um papel fundamental nesse contexto, permitindo a criação de aplicações e sistemas inovadores que impulsionam o avanço tecnológico.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Python no Back-End</h2>
+            <div class="section-content">
+                <div class="image-container">
+                    <img src="/img/com001.jpg" alt="Python">
+                </div>
+                <p>O Python é uma linguagem de programação versátil e poderosa amplamente utilizada no desenvolvimento back-end. Com sua sintaxe limpa e legibilidade, o Python permite o desenvolvimento rápido e eficiente de aplicações escaláveis e robustas.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Profissões do Back-End e Preços</h2>
+            <div class="section-content">
+                <div class="profession">
+                    <h3 class="profession-title">Desenvolvedor Back-End</h3>
+                    <p class="profession-price">$50/hora</p>
+                </div>
+                <div class="profession">
+                    <h3 class="profession-title">Arquiteto de Software</h3>
+                    <p class="profession-price">$80/hora</p>
+                </div>
+                <div class="profession">
+                    <h3 class="profession-title">Engenheiro de Dados</h3>
+                    <p class="profession-price">$70/hora</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Agradecimentos dos estudantes do SENAI, obrigado e volte sempre. &copy;</p>
+    </div>
+</body>
+</html>
